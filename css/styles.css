@@ -453,7 +453,7 @@ padding-bottom: 96px;
 .container {
     width: 1158px;
     margin: 0 auto;
-    
+
 }
 .section-two {
 padding-top: 120px;
@@ -513,8 +513,9 @@ font-size: 64px;
 
 .container .our-team-wrap {
 width: 320px;
-padding-left: 28px;
-padding-right: 28px;
+/* padding-left: 28px;
+padding-right: 28px; */
+margin: 0 auto;
 
    }
 
@@ -522,6 +523,8 @@ padding-right: 28px;
 background-color: #f4f4fd;
 padding-top: 96px;
 padding-bottom: 96px;
+padding-left: 28px;
+padding-right: 28px;
 
     }
 
@@ -627,7 +630,9 @@ padding-top: 96px;
 padding-bottom: 96px;
     
  }
-
+ .our-team-item {
+    margin-bottom: 0;
+ }
  .our-team-list {
     display: flex;
     flex-wrap: wrap;
@@ -635,5 +640,36 @@ padding-bottom: 96px;
     justify-content: center;
     text-align: center;
         }
+}
+
+@media screen and (min-width: 1158px) {
+.container .our-team-wrap {
+width: 1158px;
+margin: 0 auto;
+    }
+
+.section-our-team {
+padding-top: 120px;
+padding-bottom: 120px;
+padding-left: 156px;  
+padding-right: 156px;
+
+        
+}
+
+.our-team-list {
+display: flex;
+gap: 24px;
+justify-content: center;
+    }
+
+.our-team-item {
+margin-bottom: 0;
+     }
+
+
+.our-team-img {
+display: block;
+ }
 }
     
