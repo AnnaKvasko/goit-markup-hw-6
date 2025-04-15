@@ -500,6 +500,7 @@ align-items: center;
 }
 
 .section-two-container-icons {
+display: flex;
 font-size: 64px;
  }
 }
