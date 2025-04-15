@@ -615,4 +615,25 @@ justify-content: center;
 align-items: center;
 width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+.container .our-team-wrap {
+width: 768px;
+padding-left: 108px;
+padding-right: 108px;
+ }
+ .section-our-team {
+padding-top: 96px;
+padding-bottom: 96px;
+    
+ }
+
+ .our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+    text-align: center;
+        }
+}
     
