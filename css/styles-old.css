@@ -142,7 +142,7 @@ background-color:#404BBF;
 
 /* Main-section-two*/
 
-.section-two {
+/* .section-two {
 padding-top: 120px;
 padding-bottom: 120px;
 }
@@ -152,9 +152,9 @@ padding-bottom: 120px;
 }
 
 .section-two-item {
-    width: calc((100%-72)/4);
+    width: calc((100%-72)/4); */
     /* flex-basis: calc((100%-72)/4); */
-}
+/* }
 .section-two-title {
 font-weight: 500;
 font-size: 20px;
@@ -184,7 +184,7 @@ align-items: center;
 }
 .section-two-container-icons {
     font-size: 64px;
-}
+} */
 /* Main-section-our-team*/
 
 .section-our-team {
