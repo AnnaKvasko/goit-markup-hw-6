@@ -515,6 +515,7 @@ font-size: 64px;
 width: 320px;
 padding-left: 28px;
 padding-right: 28px;
+
    }
 
 .section-our-team {
@@ -537,7 +538,6 @@ margin-bottom: 72px;
 
 .our-team-list {
 display: block;
-margin-bottom: 72px;
     }
 
 
@@ -545,11 +545,17 @@ margin-bottom: 72px;
 background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            
+margin-bottom: 72px;          
 }
+
+.our-team-item:last-child {
+    margin-bottom: 0;
+}
+
 
 .our-team-img {
 display: block;
+width: 100%;
 }
 
 .our-team-subtitle {
