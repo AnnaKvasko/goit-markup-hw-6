@@ -589,9 +589,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #fff;
 }
 
-/* .close-link-icon:hover, .close-link-icon:focus {
-    fill: #fff;
-} */
 
 .text-one {
 font-weight: 500;
@@ -747,18 +744,6 @@ color: #4d5ae5;
     overflow: hidden;
 }
 
-/* span {
-width: 16px;
-height: 16px;
-border-radius: 2px;
-border: 1px solid rgba(46, 47, 66, 0.4);
-margin-right: 8px;
-display: inline-flex; 
-justify-content: center;
-align-items: center;
-fill: transparent;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .modal-check:checked + .modal-check-text span {
 background-color: #404bbf;
