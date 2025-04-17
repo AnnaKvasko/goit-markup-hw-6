@@ -319,9 +319,15 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 @media screen and (min-width: 768px) {
-   
+   .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+   }
     .section-one {
-        padding: 112px 0;
+        padding-bottom: 96px;
+        /* padding-left: 16px;
+        padding-right: 16px; */
         }
     
         .section-one-title {
@@ -333,15 +339,21 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 }
 @media screen and (min-width: 1158px){
-    
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+
+
+    }
     .section-one {
         padding-bottom: 120px;
         padding-top: 120px;
         padding: 188px 0;
-        width: 1440px;
+        /* width: 1158px; */
         margin: 0 auto;
         
         }
+       
         .section-one-title {
         max-width: 496px;
         margin-bottom: 48px;
@@ -397,10 +409,6 @@ color: #434455;
 display: none;
  }
 
- .container {
-    width: 768px;
-    padding: 16px;
- }
  .section-two {
 padding-top: 96px;
 padding-bottom: 96px;
@@ -445,11 +453,7 @@ padding-bottom: 96px;
 
 @media screen and (min-width: 1158px) {
 
-.container {
-    width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
-}
+
 .section-two {
 padding-top: 120px;
 padding-bottom: 120px;
@@ -465,6 +469,7 @@ justify-content: space-between;
     }
   
 .section-two-item {
+
 width: calc((100% - 72px) / 4);
 
     }
@@ -532,7 +537,11 @@ margin-bottom: 72px;
      }
 
 .our-team-list {
-display: block;
+/* display: block; */
+display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
     }
 
 
@@ -540,7 +549,7 @@ display: block;
 background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-margin-bottom: 72px;          
+/* margin-bottom: 72px;           */
 }
 
 .our-team-item:last-child {
@@ -625,8 +634,12 @@ padding-bottom: 96px;
     
  }
  .our-team-item {
-    margin-bottom: 0;
+     
+flex-basis: calc((100% - 24px) / 2);
+margin-bottom: 0;
+      
  }
+
  .our-team-list {
     display: flex;
     flex-wrap: wrap;
@@ -657,7 +670,10 @@ justify-content: center;
     }
 
 .our-team-item {
+
+flex-basis: calc((100% - 72px) / 4);
 margin-bottom: 0;
+
      }
 
 
