@@ -1407,8 +1407,8 @@ fill: #fff;
     }
     
     .modal-check-text {
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 12px; 
     line-height: 1.16;
@@ -1429,7 +1429,7 @@ fill: #fff;
     }
     
     
-    .modal-check:checked + .modal-check-text {
+    .modal-check:checked + .modal-check-text .modal-check-ico {
     background-color: #404bbf;
         /* border: 1px solid #404bbf; */
     border-radius: 2px;
