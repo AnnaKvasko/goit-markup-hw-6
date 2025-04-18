@@ -249,7 +249,7 @@ visibility: visible;
 pointer-events: auto;
 }
 
-.mobile-menu-container {
+.container.mobile-menu-container {
 position: relative;
 padding-top: 72px;
 padding-bottom: 40px;
