@@ -366,8 +366,10 @@ height: 24px;
 /* section-one */
 
 
-.section-one {
-    background: #2e2f42;
+    .section-one {
+        max-width: 320px;
+        margin: 0 auto;
+        background: #2e2f42;
     /* padding-bottom: 96px;
     padding-top: 96px; */
     padding: 72px 0;
@@ -375,11 +377,10 @@ height: 24px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 320px;
-
     }
 
-    @media (min-resolution: 192dpi) {
+
+    @media (min-resolution: 192dpi) and (max-width: 768px) {
         .section-one {
           background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
@@ -427,14 +428,12 @@ height: 24px;
         } */
 
 @media screen and (min-width: 768px) {
- .container {
-    width: 100%;
-    max-width: 768px;
- }
+  
     .section-one {
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/office/pl-office-min.jpg);
         padding-bottom: 96px;
+        margin: 0 auto;
         /* padding-left: 16px;
         padding-right: 16px; */
         }
@@ -459,10 +458,7 @@ height: 24px;
       }
 
 @media screen and (min-width: 1158px){
-    .container {
-        width: 100%;
-        max-width: 1440px;
-     }
+   
     .section-one {
         max-width: 1440px;
         padding-bottom: 120px;
@@ -494,6 +490,7 @@ height: 24px;
         url("..//images/office/desk-office@2x-min.jpg");
         }
       }
+
 
 /* section two */
 
