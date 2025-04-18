@@ -1429,7 +1429,7 @@ fill: #fff;
     }
     
     
-    .modal-check:checked + .modal-check-text .modal-check-ico {
+    .modal-check:checked + .modal-check-text .modal-check-icon {
     background-color: #404bbf;
         /* border: 1px solid #404bbf; */
     border-radius: 2px;
